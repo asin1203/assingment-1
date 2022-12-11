@@ -55,4 +55,5 @@ def addentry():
             curr_batch=curr_batch+ouput
             return render_template('payment.html', batch=curr_batch)
 
-app.run(debug=True)
+if __name__=='__main__':
+    app.run(debug=False,host='0.0.0.0')
