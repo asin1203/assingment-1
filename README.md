@@ -65,3 +65,5 @@ Internal implementation of addmember():
               return render_template('payment.html', batch=curr_batch)
   
 Later after clicking on submit, the payment due and batch is displayed.
+![Image](https://github.com/asin1203/assingment-1/blob/main/images/o1.png)
+![Image](https://github.com/asin1203/assingment-1/blob/main/images/o2.png)
