@@ -19,8 +19,8 @@ same month they need to be in same batch
 ## Implementation Details
 - Backend contains an api (/addentry) which when given post request accepts basic details of the user such as: Membership ID (ID), Full Name, Age which should be between 18 to 65, Full address and the batch.
 - The above api stores the data in a sql database within the table named members. The Membership ID here is the primary key of the table. User has to manually enter the membership ID. No two members can have similar membership ID.
-- Given is the ER diagram of the table members:
-- ![alt text](https://github.com/asin1203/assingment-1/blob/main/images/Screenshot%202022-12-12%20190352.png)
+- Given is the ER diagram of the table members: <br>
+![alt text](https://github.com/asin1203/assingment-1/blob/main/images/Screenshot%202022-12-12%20190352.png)
 
 
 Internal implementation of addmember():
@@ -64,6 +64,6 @@ Internal implementation of addmember():
               curr_batch=curr_batch+ouput
               return render_template('payment.html', batch=curr_batch)
   
-Later after clicking on submit, the payment due and batch is displayed.
+Later after clicking on submit, the payment due and batch is displayed. <br>
 ![Image](https://github.com/asin1203/assingment-1/blob/main/images/o1.png)
 ![Image](https://github.com/asin1203/assingment-1/blob/main/images/o2.png)
